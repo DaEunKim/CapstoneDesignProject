@@ -2,6 +2,16 @@
 from bs4 import BeautifulSoup
 import urllib.request
 
+"""  이미지 다운로드 class  """
+class crawlerImageDownload:
+    def imageDownlad(self, imageUrl,name):
+        image = urllib.request.urlopen(imageUrl)
+
+        fileName = 'image/'+ name[0] + '.jpg'
+        imageFile = open(fileName, 'wb')
+        imageFile.write(image.read())
+        imageFile.close()
+
 if __name__ == '__main__':
     # Crawling URL
     CRAWLING_URL = 'http://www.thedaze.kr/product/detail.html?product_no=7662&cate_no=1&display_group=2'
@@ -13,10 +23,16 @@ if __name__ == '__main__':
 
     
     for title in soup.find_all(property = 'og:title'):
-        print(title.get('content'))	# title
+        prd_name = title.get('content')     # title
+        print(prd_name)	
 
     for image in soup.find_all(property = 'og:image'):
-        print(image.get('content'))	# image
+        img_url = image.get('content')      # image
+        print(img_url)	
+
+        cid = crawlerImageDownload()
+        cid.imageDownlad(img_url, img_url.split('/')[-1:])
 
     for price in soup.find_all(property = 'product:price:amount'):
-        print(price.get('content'))	# price
+        prd_price = price.get('content')    # price
+        print(prd_price)
