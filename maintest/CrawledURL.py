@@ -68,7 +68,6 @@ def db_table_read_crawling(url):
 
     # 파일을 닫는다
     open_output_file.close()
-
 noun_count = 20
 
 # MySQL DB 연결을 한다
@@ -96,7 +95,7 @@ try :
                 with db.cursor() as curs:
                     # SQL문 실행 Table 삽입
                     sql = "INSERT INTO url_list(url) VALUES (%s)"
-                    curs.execute(sql, (href))
+                    curs.execute(sql,(href))
                 db.commit()
     with db.cursor() as curs:
         # SQL문 실행 Table 목록 확인
