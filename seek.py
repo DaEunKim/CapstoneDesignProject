@@ -47,6 +47,9 @@ if __name__ == '__main__':
                 print(img.get("src")[2:])
                 class_name = classid.find("p",{"class","name"})
                 name = class_name.find_all('span')
+                product = class_name.find("a")
+                product_url = CRAWLING_URL+product.get("href")
+                print(product_url)
                 print(name[1].get_text())
                 class_cost = classid.find("ul",{"class","xans-element- xans-product xans-product-listitem"})
                 if class_cost is None:
