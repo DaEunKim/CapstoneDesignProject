@@ -65,6 +65,7 @@ if __name__ == '__main__':
             else:
                 sou2 = urlOpen(line)
 
+
             for list_number in soup2.find_all('ol'):
                 for number in list_number.find_all('li'):
                     append_str = line + '&page=' + str(number.get_text())
