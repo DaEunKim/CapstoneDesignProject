@@ -32,6 +32,7 @@ if __name__ == '__main__':
     for category in soup.find_all('ul', class_='gnb'):
         for link in category.find_all('a'):
             line = CRAWLING_URL + str(link.get('href'))
+
             soup2 = urlOpen(line)
 
 

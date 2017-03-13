@@ -11,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/myoung$66girl_crawling.coverage" NAME="66girl_crawling Coverage Results" MODIFIED="1489363079464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/myoung$zemmaworldCrawling.coverage" NAME="zemmaworldCrawling Coverage Results" MODIFIED="1489363750904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DaEun" />
+    <SUITE FILE_PATH="coverage/myoung$zemmaworldCrawling.coverage" NAME="zemmaworldCrawling Coverage Results" MODIFIED="1489384144383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DaEun" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="66girl_crawling.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -34,11 +34,11 @@
       <file leaf-file-name="ImageCrawler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ImageCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
-                <marker date="1489306094000" expanded="true" signature="939:961" ph="SELECT * FRO... url_list" />
+                <marker date="1489365578000" expanded="true" signature="939:961" ph="SELECT * FRO... url_list" />
               </folding>
             </state>
           </provider>
@@ -62,11 +62,11 @@
       <file leaf-file-name="zemmaworldCrawling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
-                <marker date="1489365669000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
+                <marker date="1489384199000" expanded="true" signature="743:765" ph="SELECT * FRO... url_list" />
               </folding>
             </state>
           </provider>
@@ -74,10 +74,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ol</find>
+      <find>item xans-record-</find>
+      <find>199,000</find>
+      <find>판매가</find>
+      <find>올밴딩</find>
+      <find>울90%</find>
+      <find>메르시-셔츠</find>
+      <find>핸드메이드코트</find>
+      <find>울90% 핸드메이드코트</find>
+      <find>보리보리</find>
+      <find>소비자가</find>
+      <find>다크슬림</find>
+      <find>s</find>
+      <find>소비자 할인가</find>
+      <find>http://www.zemmaworld.com/product/detail.html?product_no=15942&amp;cate_no=93&amp;display_group=1</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/66girl_crawling.py" />
+        <option value="$PROJECT_DIR$/../ImageCrawler.py" />
         <option value="$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py" />
       </list>
     </option>
@@ -129,6 +149,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager" selected="Python.zemmaworldCrawling">
     <configuration default="false" name="zemmaworldCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -455,34 +478,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ImageCrawler.py">
+    <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#23#52#0" expanded="true" />
-            <marker date="1489306094000" expanded="true" signature="939:961" ph="SELECT * FRO... url_list" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
+    <entry file="file://$PROJECT_DIR$/../ImageCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
             <element signature="e#23#52#0" expanded="true" />
+            <marker date="1489365578000" expanded="true" signature="939:961" ph="SELECT * FRO... url_list" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
-            <marker date="1489365669000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
+            <marker date="1489384199000" expanded="true" signature="743:765" ph="SELECT * FRO... url_list" />
           </folding>
         </state>
       </provider>

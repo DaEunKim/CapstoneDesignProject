@@ -17,7 +17,6 @@ class crawlerImageDownload:
 
 def urlOpen(url):
     source_code_from_URL = urllib.request.urlopen(url)
-
     soup = BeautifulSoup(source_code_from_URL, 'html.parser')
 
     return soup
@@ -29,7 +28,7 @@ if __name__ == '__main__':
     # cursor = db.cursor()
     # t = cursor.execute("SELECT * FROM url_list")
 
-    # Crawling URL`
+    # Crawling URL
     CRAWLING_URL = 'http://www.zemmaworld.com'
 
     # 지정된 URL을 오픈하여 requset 정보를 가져옵니다
@@ -37,61 +36,60 @@ if __name__ == '__main__':
     # 카테고리 리스트 저장할 변수
     category_list = []
 
+
     for category in soup.find_all('li', class_='xans-record-'):
         for link in category.find_all('a'):
 
             line = str(link.get('href')) #+CRAWLING_URL
+
             if(line[0:1] =='/'):
                 line = CRAWLING_URL + line
                 soup2 = urlOpen(line)
-
             else:
                 soup2 = urlOpen(line)
-
-
 
             for list_number in soup2.find_all('ol'):
                 for number in list_number.find_all('li'):
                     append_str = line + '&page=' + str(number.get_text())
                     category_list.append(append_str)
 
-    for category in soup.find_all('li', class_='item xans-record-'):
-        for link in category.find_all('a'):
-            line = CRAWLING_URL + str(link.get('href'))
-
-            if (line[0:1] == '/'):
-                line = CRAWLING_URL + line
-                soup2 = urlOpen(line)
-            else:
-                sou2 = urlOpen(line)
 
 
-            for list_number in soup2.find_all('ol'):
-                for number in list_number.find_all('li'):
-                    append_str = line + '&page=' + str(number.get_text())
-                    category_list.append(append_str)
+        for category in category_list:
+            #print(category)
+            soup3 = urlOpen(category)
+            #print(soup3)
 
-    print(category_list[:])
-    for category in category_list:
+            for product in soup3.find_all('li', class_='item xans-record-'):
+                #print(product)
 
-        soup3 = urlOpen(category)
+                url = product.find('a')
 
-        for product in soup3.find_all('li', class_='item xans-record-'):
+                product_url = CRAWLING_URL + url.get('href')
+                print(product_url)  # 상품 판매 URL
 
-            url = product.find('a')
+                product_image_url = url.find('img').get('src')
+                if product_image_url[0] == '/':
+                    product_image_url = product_image_url[2:]
+                print(product_image_url)  # 상품 이미지 URL
 
-            product_url = CRAWLING_URL + url.get('href')
-            print(product_url)  # 상품 판매 URL
 
-            product_image_url = url.find('img').get('src')
-            if product_image_url[0] == '/':
-                product_image_url = product_image_url[2:]
-            print(product_image_url)  # 상품 이미지 URL
+                name = product.find('span').find_next('span')
+                print(name.get_text())  # 상품명
 
-            name = url.find_next('a')
-            print(name.get_text())  # 상품 가격
+                price = product.find('span').find_next('span').find_next('span')
 
-            price = product.find('span').find_next('span').find_next('span')
-            if price.get_text() == '판매가':
-                price = price.find_next('span')
-            print(price.get_text())  # 상품명
+                if price.get_text() == '판매가':
+                    if price.find_next('span').find_next('span').find_next('span').get_text() == '할인판매가':
+                        price = price.find_next('span').find_next('span').find_next('span')
+                    else:
+                        price = price.find_next('span')
+
+                if price.get_text()=='소비자가':
+                    if price.find_next('span').find_next('span').find_next('span').find_next('span').find_next('span').get_text() == '할인판매가':
+                        price = price.find_next('span').find_next('span').find_next('span').find_next('span').find_next('span').find_next('span')
+                    else:
+                        price = price.find_next('span').find_next('span').find_next('span')
+
+
+                print(price.get_text())  # 상품 가격
