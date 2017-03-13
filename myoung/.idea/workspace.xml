@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -62,11 +62,11 @@
       <file leaf-file-name="zemmaworldCrawling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
-                <marker date="1489363750000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
+                <marker date="1489365669000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
               </folding>
             </state>
           </provider>
@@ -469,7 +469,7 @@
     <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#23#52#0" expanded="true" />
           </folding>
@@ -478,11 +478,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
-            <marker date="1489363750000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
+            <marker date="1489365669000" expanded="true" signature="744:766" ph="SELECT * FRO... url_list" />
           </folding>
         </state>
       </provider>
