@@ -4,6 +4,7 @@ import tensorflow as tf
 import sys
 import os.path
 from tensorflow.python.platform import gfile
+import matplotlib.pyplot as plt
 
 def calculate_h(image_name):
 
@@ -15,27 +16,14 @@ def calculate_h(image_name):
 
     mean_h = np.mean(img_h)
 
-    #cv2.imshow("Image", image)
-    #cv2.waitKey(0)
-    #print(mean_h)
+    hist = cv2.calcHist(img_h*2,[0],None,[360],[0,360])
+    #print(hist.T)
+    print(np.argmax(hist))
 
-    return mean_h
+    cv2.imshow("Image", image)
+    cv2.waitKey(0)
 
-    # define range of blue color in HSV
-    #lower_blue = np.array([110,50,50])
-    #upper_blue = np.array([130,255,255])
-
-    # Threshold the HSV image to get only blue colors
-    #mask = cv2.inRange(img_hsv, lower_blue, upper_blue)
-
-    # Bitwise-AND mask and original image  
-    #img_result = cv2.bitwise_and(image,image, mask= mask)  
-
-    #cv2.imshow( 'mask', mask )  
-    #cv2.imshow( 'img_result', img_result ) 
-
-    #cv2.imshow("Image", image)
-    #cv2.waitKey(0)
+    return mean_h * 2
 
 def search_folder(image_dir):
 
@@ -66,15 +54,10 @@ def search_folder(image_dir):
 
 if __name__ == '__main__':
 
-    array = search_folder(sys.argv[1])
+    tmp = sys.argv[1].split('.')
 
-    print(array)
-
-    boundary = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
-
-    for mean_h in array :
-        boundary[int(mean_h) // 10] += 1
-
-    print (boundary)
+    if(tmp[-1] == 'jpg'):
+        calculate_h(sys.argv[1])
+    else:
+        array = search_folder(sys.argv[1])
     
