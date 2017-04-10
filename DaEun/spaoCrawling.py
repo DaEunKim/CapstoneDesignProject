@@ -14,7 +14,6 @@ class crawlerImageDownload:
         imageFile.write(image.read())
         imageFile.close()
 
-
 def urlOpen(url):
     source_code_from_URL = urllib.request.urlopen(url)
     soup = BeautifulSoup(source_code_from_URL, 'html.parser')
@@ -24,21 +23,24 @@ def urlOpen(url):
 
 if __name__ == '__main__':
 
-    db = pymysql.connect(host='ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com', user='root', password='root',
-                       db='product', charset='utf8')
+
+    db = pymysql.connect(host='ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com', user='root', password='root',db='spao', charset='utf8')
     cursor = db.cursor()
     t = cursor.execute("SELECT * FROM url_list") #sql문 실행
 
     # Crawling URL
-    CRAWLING_URL = 'http://www.zemmaworld.com'
+    CRAWLING_URL = 'http://spao.elandmall.com/main/initMain.action'
 
     # 지정된 URL을 오픈하여 requset 정보를 가져옵니다
     soup = urlOpen(CRAWLING_URL)
+
+    print(soup)
+
+
     # 카테고리 리스트 저장할 변수
     category_list = []
 
-
-    for category in soup.find_all('li', class_='xans-record-'):
+    for category in soup.find_all('div', class_='depth2'):
         for link in category.find_all('a'):
 
             line = str(link.get('href')) #+CRAWLING_URL
@@ -59,21 +61,23 @@ if __name__ == '__main__':
         for category in category_list:
             soup3 = urlOpen(category)
 
-            for product in soup3.find_all('li', class_='item xans-record-'):
+            for product in soup3.find_all('div', class_='thumb'):
 
-                url = product.find('a')
+                url = product.find('span')
 
-                product_url = CRAWLING_URL + url.get('href')
+
+                product_url = CRAWLING_URL + url.get('src')
                 print(product_url)  # 상품 판매 URL
+
                 with db.cursor() as curs:
                     # SQL문 실행 Table 삽입
-                    sql = "INSERT INTO 66girl(product_url) VALUES (%s)"
+                    sql = "INSERT INTO spao(product_url) VALUES (%s)"
                     curs.execute(sql,(href))
                 db.commit()
 
                 product_image_url = url.find('img').get('src')
-                if product_image_url[0] == '/':
-                    product_image_url = product_image_url[2:]
+                if product_image_url[0:2] == '//':
+                    product_image_url = product_image_url[3:]
                 print(product_image_url)  # 상품 이미지 URL
 
 

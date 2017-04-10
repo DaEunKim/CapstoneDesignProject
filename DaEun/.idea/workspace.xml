@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d19e2754-8ec0-413e-a0ea-acf7027499fa" name="Default" comment="" />
+    <list default="true" id="5a22f31b-2f50-4a86-a823-d603102f57b3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,53 +10,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/myoung$66girl_crawling.coverage" NAME="66girl_crawling Coverage Results" MODIFIED="1489363079464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/myoung$zemmaworldCrawling.coverage" NAME="zemmaworldCrawling Coverage Results" MODIFIED="1491139142334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DaEun" />
-    <SUITE FILE_PATH="coverage/myoung$spaoCrawling.coverage" NAME="spaoCrawling Coverage Results" MODIFIED="1491202044411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DaEun" />
+    <SUITE FILE_PATH="coverage/DaEun$marishe.coverage" NAME="marishe Coverage Results" MODIFIED="1491548281149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DaEun$giordano.coverage" NAME="giordano Coverage Results" MODIFIED="1491467740673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="66girl_crawling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
+    <leaf>
+      <file leaf-file-name="spaoCrawling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spaoCrawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="26" column="124" lean-forward="true" selection-start-line="26" selection-start-column="124" selection-end-line="26" selection-end-column="124" />
               <folding>
-                <element signature="e#23#52#0" expanded="true" />
+                <marker date="1491362364000" expanded="true" signature="778:800" ph="SELECT * FRO... url_list" />
+                <marker date="1491362364000" expanded="true" signature="2017:2058" ph="INSERT INTO spao... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="zemmaworldCrawling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
+        <entry file="file://$PROJECT_DIR$/zemmaworldCrawling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="-303">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
-                <marker date="1491140809000" expanded="true" signature="803:817" ph="SELECT * FRO... product" />
-                <marker date="1491140809000" expanded="true" signature="803:825" ph="SELECT * FRO... url_list" />
-                <marker date="1491140809000" expanded="true" signature="2015:2058" ph="INSERT INTO 66girl... " />
+                <marker date="1491362407000" expanded="true" signature="805:827" ph="SELECT * FRO... url_list" />
+                <marker date="1491362407000" expanded="true" signature="2017:2060" ph="INSERT INTO 66girl... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spaoCrawling.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DaEun/spaoCrawling.py">
+      <file leaf-file-name="naning9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naning9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
-                <marker date="1491202072000" expanded="true" signature="779:793" ph="SELECT * FRO... spao" />
-                <marker date="1491202072000" expanded="true" signature="779:801" ph="SELECT * FRO... url_list" />
-                <marker date="1491202072000" expanded="true" signature="2017:2060" ph="INSERT INTO 66girl... " />
+                <marker date="1491548281000" expanded="true" signature="816:837" ph="SELECT * FRO... product" />
+                <marker date="1491548281000" expanded="true" signature="830:837" ph="SELECT * FRO... product" />
+                <marker date="1491548281000" expanded="true" signature="863:983" ph="INSERT INTO product... " />
+                <marker date="1491548281000" expanded="true" signature="863:1006" ph="INSERT INTO product... " />
+                <marker date="1491548281000" expanded="true" signature="863:1024" ph="INSERT INTO product... " />
+                <marker date="1491548281000" expanded="true" signature="863:1025" ph="INSERT INTO product... " />
+                <marker date="1491548281000" expanded="true" signature="863:3057" ph="INSERT INTO product... " />
               </folding>
             </state>
           </provider>
@@ -73,32 +76,17 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ol</find>
-      <find>item xans-record-</find>
-      <find>199,000</find>
-      <find>판매가</find>
-      <find>올밴딩</find>
-      <find>울90%</find>
-      <find>메르시-셔츠</find>
-      <find>핸드메이드코트</find>
-      <find>울90% 핸드메이드코트</find>
-      <find>보리보리</find>
-      <find>소비자가</find>
-      <find>다크슬림</find>
-      <find>s</find>
-      <find>소비자 할인가</find>
-      <find>http://www.zemmaworld.com/product/detail.html?product_no=15942&amp;cate_no=93&amp;display_group=1</find>
-      <find>empty</find>
-      <find>t</find>
+      <find>contents</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/66girl_crawling.py" />
-        <option value="$PROJECT_DIR$/../ImageCrawler.py" />
-        <option value="$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py" />
-        <option value="$PROJECT_DIR$/../DaEun/spaoCrawling.py" />
+        <option value="$PROJECT_DIR$/spaoCrawling.py" />
+        <option value="$PROJECT_DIR$/zemmaworldCrawling.py" />
+        <option value="$PROJECT_DIR$/giordano.py" />
+        <option value="$PROJECT_DIR$/marishe.py" />
+        <option value="$PROJECT_DIR$/naning9.py" />
       </list>
     </option>
   </component>
@@ -111,7 +99,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -132,11 +120,11 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myoung" />
+              <option name="myItemId" value="DaEun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myoung" />
+              <option name="myItemId" value="DaEun" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -147,32 +135,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.spaoCrawling">
-    <configuration default="false" name="zemmaworldCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DaEun" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="66girl_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.marishe">
+    <configuration default="false" name="giordano" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -183,27 +154,27 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/66girl_crawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/giordano.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="spaoCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="marishe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DaEun" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DaEun/spaoCrawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naning9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -219,7 +190,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -246,7 +217,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -260,7 +231,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -276,7 +247,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -293,16 +264,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -321,7 +286,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -341,7 +306,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -361,7 +326,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -383,7 +348,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -406,7 +371,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myoung" />
+      <module name="DaEun" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -422,16 +387,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.zemmaworldCrawling" />
-      <item index="1" class="java.lang.String" itemvalue="Python.66girl_crawling" />
-      <item index="2" class="java.lang.String" itemvalue="Python.spaoCrawling" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.giordano" />
+      <item index="1" class="java.lang.String" itemvalue="Python.marishe" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.spaoCrawling" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zemmaworldCrawling" />
-        <item index="2" class="java.lang.String" itemvalue="Python.66girl_crawling" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.marishe" />
+        <item index="1" class="java.lang.String" itemvalue="Python.giordano" />
       </list>
     </recent_temporary>
   </component>
@@ -440,36 +403,36 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d19e2754-8ec0-413e-a0ea-acf7027499fa" name="Default" comment="" />
-      <created>1489306137226</created>
+      <changelist id="5a22f31b-2f50-4a86-a823-d603102f57b3" name="Default" comment="" />
+      <created>1491287617251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1489306137226</updated>
+      <updated>1491287617251</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14520743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21220528" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,119 +446,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-            <marker date="1491140809000" expanded="true" signature="803:817" ph="SELECT * FRO... product" />
-            <marker date="1491140809000" expanded="true" signature="803:825" ph="SELECT * FRO... url_list" />
-            <marker date="1491140809000" expanded="true" signature="2015:2058" ph="INSERT INTO 66girl... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ImageCrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CrawledURL.py">
+    <entry file="file://$PROJECT_DIR$/../myoung/66girl_crawling.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
+    <entry file="file://$PROJECT_DIR$/giordano.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-20">
+          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
-            <marker date="1491140809000" expanded="true" signature="803:817" ph="SELECT * FRO... product" />
-            <marker date="1491140809000" expanded="true" signature="803:825" ph="SELECT * FRO... url_list" />
-            <marker date="1491140809000" expanded="true" signature="2015:2058" ph="INSERT INTO 66girl... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/urllib/request.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1253" column="0" lean-forward="false" selection-start-line="1253" selection-start-column="0" selection-end-line="1253" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="722" column="43" lean-forward="true" selection-start-line="722" selection-start-column="43" selection-end-line="722" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CrawledURL.py">
+    <entry file="file://$PROJECT_DIR$/marishe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ImageCrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="71" column="42" lean-forward="false" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/66girl_crawling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="645">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#23#52#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DaEun/zemmaworldCrawling.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="557" column="0" lean-forward="false" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zemmaworldCrawling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
-            <marker date="1491140809000" expanded="true" signature="803:817" ph="SELECT * FRO... product" />
-            <marker date="1491140809000" expanded="true" signature="803:825" ph="SELECT * FRO... url_list" />
-            <marker date="1491140809000" expanded="true" signature="2015:2058" ph="INSERT INTO 66girl... " />
+            <marker date="1491362407000" expanded="true" signature="805:827" ph="SELECT * FRO... url_list" />
+            <marker date="1491362407000" expanded="true" signature="2017:2060" ph="INSERT INTO 66girl... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DaEun/spaoCrawling.py">
+    <entry file="file://$PROJECT_DIR$/spaoCrawling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="26" column="124" lean-forward="true" selection-start-line="26" selection-start-column="124" selection-end-line="26" selection-end-column="124" />
+          <folding>
+            <marker date="1491362364000" expanded="true" signature="778:800" ph="SELECT * FRO... url_list" />
+            <marker date="1491362364000" expanded="true" signature="2017:2058" ph="INSERT INTO spao... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naning9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
-            <marker date="1491202072000" expanded="true" signature="779:793" ph="SELECT * FRO... spao" />
-            <marker date="1491202072000" expanded="true" signature="779:801" ph="SELECT * FRO... url_list" />
-            <marker date="1491202072000" expanded="true" signature="2017:2060" ph="INSERT INTO 66girl... " />
+            <marker date="1491548281000" expanded="true" signature="816:837" ph="SELECT * FRO... product" />
+            <marker date="1491548281000" expanded="true" signature="830:837" ph="SELECT * FRO... product" />
+            <marker date="1491548281000" expanded="true" signature="863:983" ph="INSERT INTO product... " />
+            <marker date="1491548281000" expanded="true" signature="863:1006" ph="INSERT INTO product... " />
+            <marker date="1491548281000" expanded="true" signature="863:1024" ph="INSERT INTO product... " />
+            <marker date="1491548281000" expanded="true" signature="863:1025" ph="INSERT INTO product... " />
+            <marker date="1491548281000" expanded="true" signature="863:3057" ph="INSERT INTO product... " />
           </folding>
         </state>
       </provider>
