@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
-import os
 import urllib.request
 import pymysql
 
@@ -34,33 +33,30 @@ if __name__ == '__main__':
              values (%s, %s, %s, %s, %s, %s)"""
 
     # Crawling URL
-    url = [['http://www.zemmaworld.com/product/list.html?cate_no=158', 'coat'], #코트
-           ['http://www.zemmaworld.com/product/list.html?cate_no=159','jacket'], #자켓
-           ['http://www.zemmaworld.com/product/list.html?cate_no=161', 'padding'], #패딩
-           ['http://www.zemmaworld.com/product/list.html?cate_no=164', 'tee'], #티
-           ['http://www.zemmaworld.com/product/list.html?cate_no=397', 'mantoman'], # 맨투맨
-           ['http://www.zemmaworld.com/product/list.html?cate_no=397', 'hood'], # 후드
-           ['http://www.zemmaworld.com/product/list.html?cate_no=254', 'knit'], #니트
-           ['http://www.zemmaworld.com/product/list.html?cate_no=169','blouse'], #블라우스
-           ['http://www.zemmaworld.com/product/list.html?cate_no=177', 'onepiecedress'], #원피스
-           ['http://www.zemmaworld.com/product/list.html?cate_no=91', 'jeans'], # 청바지
-           ['http://www.zemmaworld.com/product/list.html?cate_no=172', 'casual_skirt'], #스커트
-           ['http://www.zemmaworld.com/product/list.html?cate_no=406','casual_skirt'], #스커트
-           ['http://www.zemmaworld.com/product/list.html?cate_no=168', 'shirt'] #셔츠
+    url = [['http://www.michyeora.com/shop/list.php?cate=07', 'outer'], #outer
+           ['http://www.michyeora.com/shop/list.php?cate=0102', 'tee'], #티
+           ['http://www.michyeora.com/shop/list.php?cate=0103', 'mantoman'], # 맨투맨
+           ['http://www.michyeora.com/shop/list.php?cate=0104', 'knit'], #니트
+           ['http://www.michyeora.com/shop/list.php?cate=02', 'blouse'], #블라우스
+           ['http://www.michyeora.com/shop/list.php?cate=0303', 'cotton_trousers_long'], #바지
+           ['http://www.michyeora.com/shop/list.php?cate=0304', 'cotton_trousers_short'], # 반바지
+           ['http://www.michyeora.com/shop/list.php?cate=0302', ' jeans_long'], #청바지 긴거
+           ['http://www.michyeora.com/shop/list.php?cate=0301', 'jeans_long'], #청바지 긴거
+           ['http://www.michyeora.com/shop/list.php?cate=04', 'skirt'] #치마
            ]
 
     # Crawling URL
-    CRAWLING_URL = 'http://www.zemmaworld.com'
+    CRAWLING_URL = 'http://www.michyeora.com'
 
     # 지정된 URL을 오픈하여 requset 정보를 가져옵니다
-    for i in range(0, 13):
+    for i in range(0, 10):
         product_clothes_label = url[i][1]
-        for j in range(1,7):
+        for j in range(1,9):
             page = url[i][0] +"&page=" + str(j)
             print(page)
             soup = urlOpen(page)
             for tm in soup.find_all('li', class_='item xans-record-'):
-                img = tm.find('div', class_='thumbnail')
+                img = tm.find('div', class_='box')
                 sell = img.find('a')
 
                 product_shopping_url = CRAWLING_URL + str(sell.get('href'))
@@ -68,19 +64,17 @@ if __name__ == '__main__':
 
                 img_url = img.find_next('img')
                 product_shopping_img_url = img_url.get('src')  # image url
-                if (product_shopping_img_url[0:1] == '/'):
-                    product_shopping_img_url = product_shopping_img_url[2:]
-                    print(product_shopping_img_url)
+                print(product_shopping_img_url)
 
                 name = tm.find('p', class_='name')
-                product_name = name.find_next('span').get_text()
+                product_name = name.find('a').get_text()
                 print(product_name)
 
                 price = tm.find('ul', class_='xans-element- xans-product xans-product-listitem')
-                product_cost = price.find('li').find_next('span').find_next('span').get_text()
+                product_cost = price.find('li').find_next('strong').find_next('span').find_next('span').get_text()
                 print(product_cost)
 
-                # curs.execute(sql, ("zemmaworld", product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label))
+                # curs.execute(sql, ("michyeora", product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label))
 
     conn.commit()
     conn.close()
