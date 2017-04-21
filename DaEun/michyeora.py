@@ -29,8 +29,8 @@ if __name__ == '__main__':
     # Connection 으로부터 Cursor 생성
     curs = conn.cursor()
 
-    sql = """insert into product(product_brand,product_name,product_cost,product_clothes_label,product_shopping_img_url,product_shopping_url)
-             values (%s, %s, %s, %s, %s, %s)"""
+    sql = """insert into product(product_brand, product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label)
+                 values (%s, %s, %s, %s, %s, %s)"""
 
     # Crawling URL
     url = [['http://www.michyeora.com/shop/list.php?cate=07', 'outer'], #outer
