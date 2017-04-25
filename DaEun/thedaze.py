@@ -4,34 +4,21 @@ import os
 import urllib.request
 import pymysql
 
-"""  이미지 다운로드 class  """
-class crawlerImageDownload:
-    def imageDownlad(self, imageUrl, name):
-        image = urllib.request.urlopen(imageUrl)
-
-        fileName = 'image/' + name[0] + '.jpg'
-        imageFile = open(fileName, 'wb')
-        imageFile.write(image.read())
-        imageFile.close()
-
-
 def urlOpen(url):
     source_code_from_URL = urllib.request.urlopen(url)
     soup = BeautifulSoup(source_code_from_URL, 'html.parser')
-
     return soup
 
 
 if __name__ == '__main__':
 
-    conn = pymysql.connect(host='ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com', user='root', password='root',
-                           db='forstyle', charset='utf8')
+    conn = pymysql.connect(host = 'ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com', user='root',
+                           password='root', db='forstyle', charset='utf8')
 
     # Connection 으로부터 Cursor 생성
     curs = conn.cursor()
 
-    sql = """insert into product(product_brand, product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label)
-             values (%s, %s, %s, %s, %s, %s)"""
+    sql = """insert into product(product_brand, product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label) values (%s, %s, %s, %s, %s, %s)"""
 
     # Crawling URL
     url = [['http://www.thedaze.kr/product/list.html?cate_no=59', 'coat'],
@@ -84,9 +71,10 @@ if __name__ == '__main__':
                         product_shopping_img_url = img_url.get('src')  # image url
                         if (product_shopping_img_url[0:2] == '//'):
                             product_shopping_img_url = product_shopping_img_url[2:]
+
                         print(product_shopping_img_url)
 
-                        name = img.find('div', class_='product_contents_info')
+                        name = tmp.find('div', class_='product_contents_info')
                         product_name = name.find('p', class_='name').find_next('a').find_next('span').get_text()
                         print(product_name)
 
@@ -98,13 +86,14 @@ if __name__ == '__main__':
                             product_cost = "-"
                         print(product_cost)
 
+                        curs.execute(sql, ("thedaze", product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label))
 
                     except:
                         sell = "None"
 
 
 
-                    # curs.execute(sql, ("thedaze", product_name, product_cost, product_shopping_img_url, product_shopping_url, product_clothes_label))
+
 
     conn.commit()
     conn.close()
