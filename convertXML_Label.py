@@ -19,15 +19,13 @@ class CONVERT_TEXT_TO_XML:
         self.read_text(self.start, self.end)
 
     def argv_parser(self, argvs):
-        if (len(argvs) < 5):
-            print("Usage > python -filename (String) -rtsp (String) -start (int) -end (int)")
+        if (len(argvs) < 3):
+            print("Usage > python convertXML_Label.py -start (int) -end (int)")
             exit(0)
         for i in range(1, len(argvs), 2):
-            if argvs[i] == '-filename' : self.filename = argvs[i + 1]
-            if argvs[i] == '-rtsp' : self.rtsp = argvs[i + 1]
             if argvs[i] == '-start': self.start = argvs[i + 1]
             if argvs[i] == '-end': self.end = argvs[i + 1]
-        print("TEXT 파일 "+self.filename+ " " + self.rtsp + " " + str(self.start) + " 부터 " + str(self.end) + "까지 XML 파일로 변환합니다")
+        print("DB의 "+str(self.start) + " 부터 " + str(self.end) + "까지 XML 파일로 변환합니다")
 
     def read_text(self, start, end):
         self.READ_PATH = os.path.join(self.READ_PATH, self.filename)
