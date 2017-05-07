@@ -43,7 +43,11 @@ class CONVERT_TEXT_TO_XML:
                 rows = curs.fetchall()
                 row = re.sub("[ '()]", "", str(rows))
                 row = str(row).split(',')
-                label, x1, y1, x2, y2 = row[0], row[1], row[2], row[3], row[4]
+                print(row)
+                if len(row) < 5:
+                    pass
+                else:
+                    label, x1, y1, x2, y2 = row[0], row[1], row[2], row[3], row[4]
                 
                 #print(str(x1)+str(y1)+str(x2)+str(y2))
                 self.make_xml(file_index)
