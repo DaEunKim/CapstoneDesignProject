@@ -1,0 +1,7 @@
+#Thu Apr 13 14:06:16 KST 2017
+base.0=C\:\\Users\\dblab\\AndroidStudioProjects\\forstyle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_57c288f3dd6905913886b6ea553284ed646b62a7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\dblab\\AndroidStudioProjects\\forstyle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b0ef73fa291a628dd15d30bd59b21cd146075805\\classes.dex
+base.1=C\:\\Users\\dblab\\AndroidStudioProjects\\forstyle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b0ef73fa291a628dd15d30bd59b21cd146075805
+file.0=C\:\\Users\\dblab\\AndroidStudioProjects\\forstyle\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_57c288f3dd6905913886b6ea553284ed646b62a7\\classes.dex
