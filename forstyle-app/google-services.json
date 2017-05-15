@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924680457327",
+    "project_id": "firebase-forstyle"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924680457327:android:8970e5c48a6e3d21",
+        "android_client_info": {
+          "package_name": "kookmin.cs.msdj.forstyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924680457327-s13ujfjrnf2u78c6k9cqf07c4vlimbva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kookmin.cs.msdj.forstyle",
+            "certificate_hash": "97681F74BF6FBE50325FBD0BBEDE3782EE00AB67"
+          }
+        },
+        {
+          "client_id": "924680457327-chfai9is6sg2f932g99djrb2nr7dqtg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG6PROjd6V6ul8Ka9vTI-b21JII9xsKGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
