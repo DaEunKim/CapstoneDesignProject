@@ -32,7 +32,7 @@ db = mysql.connect(host='ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com'
 
 with db.cursor() as curs:
     #sql = "SELECT product_shopping_img_url FROM product WHERE product_file_name > 9000 AND product_file_name < 12001"
-    sql = "SELECT product_file_name,product_shopping_img_url FROM product WHERE product_file_name >=21804"
+    sql = "SELECT product_file_name,product_shopping_img_url FROM product WHERE product_file_name >=1"
 
     curs.execute(sql)
 
