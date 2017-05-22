@@ -6,8 +6,8 @@ from tensorflow.python.platform import gfile
 
 db = mysql.connect(host='ec2-13-124-80-232.ap-northeast-2.compute.amazonaws.com', user='root', password='root', db='forstyle', charset='utf8')
 
-with db.cursor() as curs:
-    sql = """update product set product_clothes_label = ""%s"" where product_file_name = %s"""
+curs = db.cursor()
+sql = """update back_up set product_clothes_label = ""%s"" where product_file_name = %s"""
     
 
 
@@ -33,7 +33,6 @@ for sub_dir in sub_dirs:
         tmp = re.split('image_',image_path)
         image_name = re.split('\.',tmp[1])
         print(dir_name,":",image_name[0])
-        curs.execute(sql,dir_name,image_name[0])
-    #conn.commit()
-
-conn.close()
+        curs.execute(sql,(dir_name,image_name[0]))
+db.commit()
+db.close()
