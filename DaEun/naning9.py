@@ -82,7 +82,7 @@ if __name__ == '__main__':
                     price = product_price.get_text()
                      #print(price)
 
-        cur.execute(t, ("naning9", product_name,price, img_url,product_url, category_name))
+        # cur.execute(t, ("naning9", product_name,price, img_url,product_url, category_name))
         cur.commit()
     cur.close()
     db.close()
